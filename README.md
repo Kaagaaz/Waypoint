@@ -9,14 +9,14 @@ When you connect to someone else's hotspot, the host has a privileged position o
 
 How It Works -
 
-Active Traffic Analysis -
+1. Active Traffic Analysis -
 The app runs silently in the background, constantly inspecting incoming network packets on your device's interface to distinguish normal network traffic from suspicious host activities.
 
-Instant Scan & Reconnaissance Detection -
+2. Instant Scan & Reconnaissance Detection -
 The moment the hotspot host initiates a port scan (like SYN, UDP, or full TCP scans) or attempts ARP spoofing/poisoning, the app flags the source IP and pinpoints the exact attack vector.
 
-Automated Threat Blocking & Isolation -
+3. Automated Threat Blocking & Isolation -
 Once detected, the app immediately drops the malicious packets, blocks further probes from the host, and isolates your device’s ports—stopping the attacker before they can discover open entry points or exploit vulnerabilities.
 
-Real-Time Alerts & Incident Logs -
+4. Real-Time Alerts & Incident Logs -
 Receive immediate notifications explaining what the hotspot host attempted to do, complete with detailed logs of blocked ports and hostile network activity.

@@ -1,7 +1,7 @@
 # Waypoint
 Overview -
 
-This app is designed to protect connected users from rogue, intrusive, or malicious hotspot providers. When you connect to public Wi-Fi or a shared mobile hotspot, you usually trust the network host with your device’s visibility—leaving you exposed to local attacks. Our app acts as an active, client-side firewall that detects and instantly blocks network reconnaissance, unauthorized port scans, and host-level intrusion attempts in real time, keeping your private data safe on any untrusted network.
+This app is designed to protect connected users from rogue, intrusive, or malicious hotspot providers. When you connect to public Wi-Fi or a shared mobile hotspot, you usually trust the network host with your device’s visibility—leaving you exposed to local attacks. This app acts as an active, client-side firewall that detects and instantly blocks network reconnaissance, unauthorized port scans, and host-level intrusion attempts in real time, keeping your private data safe on any untrusted network.
 
 <img width="500" height="500" alt="1000054001" src="https://github.com/user-attachments/assets/747f2c63-f7f6-48a8-a348-7784534c11fc" />
 

@@ -6,6 +6,7 @@ This app is designed to protect connected users from rogue, intrusive, or malici
 <img width="500" height="500" alt="1000054001" src="https://github.com/user-attachments/assets/747f2c63-f7f6-48a8-a348-7784534c11fc" />
 
 
+
 Why You Need It -
 
 When you connect to someone else's hotspot, the host has a privileged position on the local network. A malicious host can quietly probe your device to find open ports, identify running services, and execute Man-In-The-Middle (MITM) attacks often without your knowledge. Standard antivirus and VPNs don't always stop local host-to-client port scanning; our app fills that exact gap.

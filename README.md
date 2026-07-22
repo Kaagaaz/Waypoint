@@ -3,6 +3,9 @@ Overview -
 
 This app is designed to protect connected users from rogue, intrusive, or malicious hotspot providers. When you connect to public Wi-Fi or a shared mobile hotspot, you usually trust the network host with your device’s visibility—leaving you exposed to local attacks. Our app acts as an active, client-side firewall that detects and instantly blocks network reconnaissance, unauthorized port scans, and host-level intrusion attempts in real time, keeping your private data safe on any untrusted network.
 
+<img width="2160" height="2160" alt="1000054001" src="https://github.com/user-attachments/assets/747f2c63-f7f6-48a8-a348-7784534c11fc" />
+
+
 Why You Need It -
 
 When you connect to someone else's hotspot, the host has a privileged position on the local network. A malicious host can quietly probe your device to find open ports, identify running services, and execute Man-In-The-Middle (MITM) attacks often without your knowledge. Standard antivirus and VPNs don't always stop local host-to-client port scanning; our app fills that exact gap.

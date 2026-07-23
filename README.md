@@ -24,3 +24,7 @@ Once detected, the app immediately drops the malicious packets, blocks further p
 
 4. Real-Time Alerts & Incident Logs -
 Receive immediate notifications explaining what the hotspot host attempted to do, complete with detailed logs of blocked ports and hostile network activity.
+
+Supported Devices : 
+1. Android Mobile  ( android ver. 8-16 )
+2. Android Tablet  ( android ver. 8-16 )

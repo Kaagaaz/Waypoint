@@ -27,4 +27,4 @@ Receive immediate notifications explaining what the hotspot host attempted to do
 
 Supported Devices : 
 1. Android Mobile  ( android ver. 8-16 )
-2. Android Tablet  ( android ver. 8-16 )
+2. Android Tablet   ( android ver. 8-16 )

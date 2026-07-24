@@ -25,6 +25,13 @@ Once detected, the app immediately drops the malicious packets, blocks further p
 4. Real-Time Alerts & Incident Logs -
 Receive immediate notifications explaining what the hotspot host attempted to do, complete with detailed logs of blocked ports and hostile network activity.
 
+
+Honeypot Trap :
+
+The honeypot trap operates by feeding aggressive network attackers completely fake and non-real information. When a rogue hotspot host initiates unauthorized reconnaissance or port scanning, the trap intercepts these probes and redirects the attacker into a heavily controlled, deceptive sandbox environment.
+Instead of exposing actual system files, device parameters, or genuine network services, the honeypot returns meticulously crafted, fabricated responses and non-existent vulnerabilities. This ensures that any data the attacker manages to extract is entirely useless and artificial. While the malicious actor wastes time interacting with these decoy services and believes they are successfully infiltrating the device, the app quietly analyzes their intrusion patterns, captures their digital footprint, and triggers automated network isolation safely in the background.
+
+
 Supported Devices : 
 1. Android Mobile  ( android ver. 8-16 )
 2. Android Tablet   ( android ver. 8-16 )

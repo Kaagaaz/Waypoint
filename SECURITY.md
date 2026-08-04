@@ -3,8 +3,7 @@
 
 # Overview
 
-client-side firewall and mobile honeypot engineered to protect Android devices from rogue, intrusive, or malicious hotspot hosts. 
-When connected to untrusted public Wi-Fi or shared mobile hotspots, the app conducts **Active Traffic Analysis** to detect real-time network reconnaissance (SYN, UDP, and full TCP port scans), host-level intrusion attempts, and link-layer attacks like ARP spoofing/poisoning. It responds by dropping malicious packets, isolating device ports, generating incident logs, and redirecting attackers into a deceptive, sandbox honeypot environment that feeds them artificial data.
+client-side firewall and mobile honeypot engineered to protect Android devices from rogue, intrusive, or malicious hotspot hosts.When connected to untrusted public Wi-Fi or shared mobile hotspots, the app conducts **Active Traffic Analysis** to detect real-time network reconnaissance (SYN, UDP, and full TCP port scans), host-level intrusion attempts, and link-layer attacks like ARP spoofing/poisoning. It responds by dropping malicious packets, isolating device ports, generating incident logs, and redirecting attackers into a deceptive, sandbox honeypot environment that feeds them artificial data.
 ---
 ## Supported Versions & Devices
 We actively maintain and issue security updates for the following operating environments:

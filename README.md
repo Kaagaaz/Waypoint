@@ -1,5 +1,5 @@
-# Waypoint
-Overview -
+
+# Overview -
 
 This app is designed to protect connected users from rogue, intrusive, or malicious hotspot providers. When you connect to public Wi-Fi or a shared mobile hotspot, you usually trust the network host with your device’s visibility—leaving you exposed to local attacks. This app acts as an active, client-side firewall that detects and instantly blocks network reconnaissance, unauthorized port scans, and host-level intrusion attempts in real time, keeping your private data safe on any untrusted network.
 
@@ -10,11 +10,11 @@ This app is designed to protect connected users from rogue, intrusive, or malici
 
 
 
-Why You Need It -
+## Why You Need It -
 
 When you connect to someone else's hotspot, the host has a privileged position on the local network. A malicious host can quietly probe your device to find open ports, identify running services, and execute Man-In-The-Middle (MITM) attacks often without your knowledge. Standard antivirus and VPNs don't always stop local host-to-client port scanning; our app fills that exact gap.
 
-How It Works -
+## How It Works -
 
 1. Active Traffic Analysis -
 The app runs silently in the background, constantly inspecting incoming network packets on your device's interface to distinguish normal network traffic from suspicious host activities.
@@ -29,12 +29,16 @@ Once detected, the app immediately drops the malicious packets, blocks further p
 Receive immediate notifications explaining what the hotspot host attempted to do, complete with detailed logs of blocked ports and hostile network activity.
 
 
-Honeypot Trap :
+## Honeypot Trap :
 
 The honeypot trap operates by feeding aggressive network attackers completely fake and non-real information. When a rogue hotspot host initiates unauthorized reconnaissance or port scanning, the trap intercepts these probes and redirects the attacker into a heavily controlled, deceptive sandbox environment.
 Instead of exposing actual system files, device parameters, or genuine network services, the honeypot returns meticulously crafted, fabricated responses and non-existent vulnerabilities. This ensures that any data the attacker manages to extract is entirely useless and artificial. While the malicious actor wastes time interacting with these decoy services and believes they are successfully infiltrating the device, the app quietly analyzes their intrusion patterns, captures their digital footprint, and triggers automated network isolation safely in the background.
 
 
-Supported Devices : 
-1. Android Mobile  ( android ver. 8-16 )
-2. Android Tablet   ( android ver. 8-16 )
+## Supported Devices : 
+
+| Device Type | Operating System Version | Support Status |
+| :--- | :--- | :--- |
+| **Android Mobile** | Android 8.0 (API 26) – Android 16 | :white_check_mark: Supported |
+| **Android Tablet** | Android 8.0 (API 26) – Android 16 | :white_check_mark: Supported |
+| **Legacy Devices** | Android < 8.0 | :x: Unsupported | :
